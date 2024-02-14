@@ -1,0 +1,26 @@
+.shop-name {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.detail-product-name {
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.detail-product-price {
+    font-size: 24px;
+    text-align: right;
+    color: #D40022;
+    font-weight: bold;
+}
+
+.before-price {
+    color: #A6A6A6;
+    text-decoration: line-through;
+}
+
+div {
+    width: 450px;
+}

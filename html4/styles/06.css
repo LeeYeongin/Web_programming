@@ -1,0 +1,36 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    color: dimgray;
+}
+
+.my_p {
+    font-style: oblique;
+}
+
+.highlight {
+    font-weight: 900;
+    color: midnightblue;
+    background-color: goldenrod;
+}
+
+.highlight2 {
+    text-decoration: underline;
+}
+
+#my_id {
+    text-decoration: line-through;
+}
+
+#hello_id {
+    letter-spacing: 15px;
+}

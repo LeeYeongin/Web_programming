@@ -1,0 +1,43 @@
+/* 전체 선택자 */
+* { 
+    /* width: px; */
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+    font-size: 24px;
+}
+
+.my_div {
+    font-size: 12px;
+}
+
+/* class로 (식별하여) css적용 */
+.my_p { 
+    font-size: 2em; /* 부모요소의 테스트 크기에 상대적으로 설정 */
+    color: rgb(107, 110, 240);
+}
+
+
+/* 태그로 (식별하여) css적용 */
+p {
+    font-size: 2rem; /* html태그의 테스트 크기에 상대적으로 설정 */
+    font-family: 'Times New Roman', Times, serif;
+    color: darkorchid;
+}
+
+h1 {
+    font-size: 64px;
+    color: blanchedalmond;
+}
+
+
+/* id로 (식별하여) css적용 */
+#my_id {
+    font-size: 48px;
+    color: darkgreen;
+}
+
+.highlight {
+    text-decoration: underline;
+    background-color: rgb(241, 201, 98);
+}
