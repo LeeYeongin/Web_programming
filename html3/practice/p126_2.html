@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        fieldset{
+            text-align: center;
+            width: 300px;
+        }
+        button{
+            width: 170px;
+            height: 30px;
+        }
+        input{
+            height: 30px;
+        }
+        img{
+            width:20px;
+        }
+    </Style>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <button><img src="/images/firefox.jpg" alt="img">   Log in with Google</button>
+            <p>or</p>
+            <div>
+                <input type="text" name="username" placeholder="Username">
+                <input type="password" name="pwd" placeholder="Password">
+            </div>
+            <button type="submit">LOGIN</button>
+            <p>Forgot your password?</p>
+        </fieldset>
+    </form>
+</body>
+</html>

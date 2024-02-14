@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>개인 정보 입력</legend>
+            <label for="city">지역</label>
+            <select name="city" id="city">
+                <option value="금정구">금정구</option>
+                <optgroup label="서울시">
+                <option value="강북구">강북구</option>
+                <option value="강남구">강남구</option>
+                <option value="서초구">서초구</option>
+                </optgroup>
+                <optgroup value="경기도 성남시">
+                    <option value="중원구">중원구</option>
+                    <option value="분당구">분당구</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <button type="submit">제출하기</button>
+    </form>
+
+</body>
+</html>

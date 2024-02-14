@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>기본 정보</legend>
+            <p>
+                <label for="userid">아이디
+                    <input type="text" id="userid">
+                </label>
+            </p>
+            <p>
+                <label for="userpw">비밀번호
+                    <input type="password" id="userpw">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>선택 정보</legend>
+            <p>
+                <label for="age">나이
+                    <input type="number" id="age">
+                </label>
+            </p>
+            <p>
+                <label for="recommender">추천인
+                    <input type="text" id="recommender">
+                </label>
+            </p>
+        </fieldset>
+        <button type="submit">제출</button>
+    </form>
+    
+</body>
+</html>
