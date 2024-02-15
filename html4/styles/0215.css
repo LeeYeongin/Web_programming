@@ -1,0 +1,68 @@
+/* 모든 선택자 */
+/* * {
+    border: 1px solid black;
+} */
+
+/* 그룹선택자 */
+html, body, h1, h2, h3, p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+table, td, tr, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+h1 {
+    font-size: 24px;
+    color: red;
+}
+
+/* class */
+.p_first {
+    font-size: 12px;
+    color: blueviolet;
+}
+
+.first {
+    background-color: darkkhaki;
+}
+
+/* 하위 선택자 - first class 아래의 p 태그에 적용을 의미 */
+.first p {
+    font-size: 25px;
+}
+
+/* id */
+#p_second {
+    font-size: 32px;
+    color: chocolate;
+}
+
+/* input태그 중 type이 text인것만 적용 */
+input[type="text"]{
+    border: 2px dashed blue;
+    font-size: 24px;
+}
+
+input[type="email"]{
+    border: 1px solid green;
+    font-size: 13px;
+}
+
+button {
+    font-size: 24px;
+    height: 40px;
+    width: 120px;
+    background-color: darkgoldenrod;
+    color: azure;
+    border-radius: 5px;
+}
+
+/* 버튼에 마우스가 올라가면 변화 */
+button:hover{
+    opacity: 0.5;
+    /* 마우스 커서가 포인터모양으로 변경 */
+    cursor: pointer; 
+}
