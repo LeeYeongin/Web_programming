@@ -1,0 +1,32 @@
+/* div {
+    border: 1px solid black;
+} */
+
+.div1 {
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    transform: rotate(10deg);
+}
+
+.div2 {
+    width: 600px;
+    height: 200px;
+    background-image: url('/html4/image/sadrabbit.jpg');
+    background-size: contain;
+}
+
+.div3 {
+    width: 600px;
+    height: 200px;
+    background-image: url('/html4/image/sadrabbit.jpg');
+    background-size: cover;
+}
+
+.div4 {
+    width: 600px;
+    height: 200px;
+    background-image: url('/html4/image/sadrabbit.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}

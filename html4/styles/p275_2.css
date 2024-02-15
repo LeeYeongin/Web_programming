@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+form, fieldset {
+    width: 304px;
+    height: 390px;
+
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+input {
+    width: 228px;
+    height: 44px;
+    margin-bottom: 20px;
+    padding: 10px;
+
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 218);
+}
+
+.google_button {
+    margin-top: 28px;
+    width: 228px;
+    height: 44px;
+}
+
+.logo {
+    width: 40px;
+}
+
+.login_button {
+    
+}

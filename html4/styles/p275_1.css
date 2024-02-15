@@ -1,0 +1,27 @@
+body {
+    padding: 100px;
+    font-family: 'NanumYaGeunHaNeunGimJuIm';
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 44px;
+    margin: 20px;
+}
+
+.container{
+    border-bottom: 1px solid #d6d67e;
+    border-right: 1px solid #d6d67e;
+    width: 400px;
+    height: 350px;
+    transform: rotate(10deg);
+
+    padding-top: 10px;
+    text-align: center;
+    background-color: #ffff99;
+}
+
