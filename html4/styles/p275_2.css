@@ -1,5 +1,9 @@
 * {
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;;
+    font-size: 14px;
+    color: #504444;
+    /* border: 1px solid; */
 }
 
 form, fieldset {
@@ -13,6 +17,11 @@ p {
     text-align: center;
 }
 
+#p_or {
+    font-size: 16px;
+    font-weight: bold;
+}
+
 input {
     width: 228px;
     height: 44px;
@@ -21,19 +30,54 @@ input {
 
     border: 0px;
     border-radius: 5px;
-    background-color: rgb(218, 218, 218);
+    background-color: #eaeaea;
 }
 
 .google_button {
     margin-top: 28px;
     width: 228px;
     height: 44px;
+
+    background-color: #ffffff;
+    border: 2px solid;
 }
 
+.button_container{
+    display: inline-block;
+    text-align: start;
+}
+
+/* .button_content .img_container {
+    
+} */
+
+.button_content{
+    width: 170px;
+    height: 44px;
+
+    padding-top: 10px;
+    padding-left: 45px;
+
+    font-weight: bold;
+}
+
+.img_container {
+    width: 40px;
+    float: left;
+}
 .logo {
     width: 40px;
+    height: 35px;
 }
 
 .login_button {
-    
+    height: 44px;
+    width: 228px;
+
+    background-color: #373F3C;
+    color: #ffffff;
+
+    border: none;
+
+    margin-bottom: 7px;
 }
